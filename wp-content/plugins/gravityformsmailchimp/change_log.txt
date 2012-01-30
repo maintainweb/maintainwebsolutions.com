@@ -1,0 +1,78 @@
+------------------------------------------------------------------------------------------------------------------
+Version 1.6.1
+    - Fixed issue that caused warnings to be displayed on feeds created by older versions.
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.6
+    - Fixed issue where RG_CURRENT_PAGE constant was not available when GF is deactivated
+    - Fixed noticed caused where $api variable not declared
+    - Added support for MaiChimp Groups so that subscribers can be assigned to a group when added to a list.
+    - Added Form Title to the list of fields to be mapped
+    - Updated procedure that gets the MailChimp lists so that more than 25 lists are returned (up to 100).
+    - Added integration with PayPal so that subscribers can be added only when payment is received
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.5
+    - Updated API Wrapper to 1.3 (mini)
+    - Removed blank strings from POT file to prevent error messages in Poedit
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.4
+    - Cleaned up notices
+    - Fixed issue when using Opt-in condition on a field with multiple single quote characters in the label
+    - Fixed issue when creating a feed using forms with HTML markup in field labels
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.3.4
+    - Cleaned up notices
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.3.3
+    - Added "Cancel" button to Edit page and updated "Save" and "Update" button verbiage
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.3.2
+    - Fixed issue with MailChimp lists being displayed as blank values. Taking into account different data formats returned by the API
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.3.1
+    - Using new MailChimp PHP API wrapper (v. 1.2.6) when authenticating via an API Key
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.3
+    - Added support for authentication via MailChimp API Key
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.2
+    - Fixed issue with automatic upgrade on WP 3.0
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.1
+    - Adding MailChimp capabilities to admin role upon plugin activation
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.0.beta-2
+    - Added MailChimp icon
+    - Renamed "Contact List" to "MailChimp List"
+
+------------------------------------------------------------------------------------------------------------------
+Version 1.0.beta-1
+    - Changed text on list page when settings haven't been configured
+    - Created POT file
+
+------------------------------------------------------------------------------------------------------------------
+Version 0.2
+    - Map Fields column headers to ?List Fields? and ?Form Fields? and bol
+    - Rename button to "Save Feed" for a new feed and "Update Feed" for an existing one
+    - Settings page subnavigation to look like "Edit Forms" subnav (i.e. All | Active | Inactive) with no pipe at the end
+    - Try adding menu item between Entries and Settings
+    - Move "Add Feed" to top right (like posts page) and rename to "Add new"
+
+------------------------------------------------------------------------------------------------------------------
+Version 0.1
+    - Split logic from Feeds Add-On
+    - Implemented automatic upgrade
+    - Implemented list page checkboxes (for bulk actions)
+    - Implemented active/inactive icons on list page
+
+------------------------------------------------------------------------------------------------------------------

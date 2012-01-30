@@ -1,0 +1,438 @@
+/*  
+Theme Name: PlatformBase
+Theme URI: http://www.pagelines.com/themes/PlatformPro
+Description: Platform Base is a Platform child theme (a WordPress child theme) designed to be edited to customize the PlatformPro WordPress framework. Use custom CSS and PHP hooks to do almost anything. Designed and developed by <a href="http://www.pagelines.com">PageLines</a>.  **IMPORTANT** For this to work PlatformPro must be called 'platformpro' (lowercase) in your themes folder.
+Version: 1.4.1
+Author: PageLines
+Author URI: http://www.pagelines.com
+Tags: buddypress, theme-options, white, silver, light, one-column, two-columns, three-columns, left-sidebar, right-sidebar, flexible-width, custom-menu, fixed-width, threaded-comments, custom-header, custom-colors, translation-ready
+
+Template: platformpro
+
+/* ======================= */
+/* = Get PlatformPro CSS = */
+/* ======================= */
+
+/*
+ IMPORTANT -  The files below need to find the actual directory of Platform. If the PlatformPro is named something other than 'platformpro' you will need to change that value below.
+
+ ON UPDATING - 	Base shouldn't be replaced in your install with every release. It defeats the purpose of using a child theme.
+				Use updates to this Platform Child Theme, as a reference to help you improve your own customizations.
+*/
+
+	/* Get Theme-Parent CSS */
+	@import url('../platformpro/style.css');
+
+/* ============================= */
+/* = HOW TO CUSTOMIZE PLATFORM = */
+/* ============================= */
+
+/*
+
+Edit this style sheet to create your own custom theme based on the Base Platform theme. 
+
+Rules placed in this stylesheet will override the default styles of the Base Platform theme and will not be changed or over written when you update the 
+Platform framework. Additionally, since this stylesheet is purely for editing purposes you can easily undo or erase some of the CSS to return your site back to the look and feel of the Base theme. 
+
+In the Base theme the footer is black and the CSS looks like this:
+
+	#footer {
+		clear:both;
+		font-size:1em;
+		overflow:hidden;
+		text-align: left;
+		background: #000;
+		color: #999;
+		position: relative;
+	}
+		
+To change the background color to white, all you have to do is declare a new rule for the color like so:
+
+		#footer { background: #FFF; }
+
+A great tool for modifying themes and inspecting CSS elements is the FireBug extension for FireFox. You can also use the developer tools provided by Chrome (right-click and "inspect element") or Internet Explorer if you're feeling dangerous.
+
+LEARN CSS - We recommend using Lynda.com video tutorials to learn using CSS. 
+			Also, for a comprehensive list of CSS rules and usage try consulting W3 schools @ http://www.w3schools.com/css/default.asp
+
+ON UPDATING - 	Base shouldn't be replaced in your install with every release. It defeats the purpose of using a child theme.
+				Use updates to this Platform Child Theme, as a reference to help you improve your own customizations.
+*/
+
+/* ============================== */
+/* = Start Your Custom CSS Here = */
+/* ============================== */
+ 
+/* @ CSS corresponding to the hook used in functions.php; adds a stumbleupon icon to branding section */
+
+.icons .stumbleupon {background: url('../platformpro/images/sprite-socialicons.png') no-repeat -176px 0;}
+.icons .stumbleupon:hover {background: url('../platformpro/images/sprite-socialicons.png') no-repeat -176px -22px;}
+
+/* @ Pullquote Section */
+
+#pullquote.copy{
+	background: #f7f7f7 url(images/pullquote.png) no-repeat 15px 15px;
+	padding: 15px 20px 15px 45px;
+	margin-bottom: 1.5em;
+}
+
+	#pullquote .thepullquote{font-size: 1.5em;margin-bottom: 5px;line-height: 1.3em;}
+	#pullquote .thecitation{color: #AAA; font-style: italic;padding-left: 15px;}
+	
+body.home h1.pagetitle {display: none!important}
+
+#callout .content-pad {
+padding: 30px 17px 10px;
+}
+
+#page-canvas {
+	background: url(https://maintainwebsolutions.com/wp-content/uploads/2011/11/background-gray-fade-short.jpg) top left repeat-x!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+margin: 0;
+padding: 0;
+line-height: 1.2em;
+margin-bottom: .6em;
+}
+
+.callout_head {
+margin-bottom: .2em;	
+}
+
+#cred.pagelines {display: none;}
+
+
+.buttonSmall {
+-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;
+-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+cursor:pointer;display:inline-block;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:10px;
+font-weight: bold;padding:2px 8px;outline:none!important;
+text-align:center;text-decoration:none;position:relative;
+-moz-box-sizing:border-box!important;line-height:16px;
+margin-right: 5px!important; 
+margin-bottom: 5px!important; 
+}
+.button {
+-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;
+-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+cursor:pointer;display:inline-block;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px;
+font-weight: bold;padding:6px 16px;outline:none!important;
+text-align:center;text-decoration:none;position:relative;
+-moz-box-sizing:border-box!important;line-height:16px;
+}
+.buttonLarge {
+-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;
+-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+cursor:pointer;display:inline-block;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;
+font-weight: bold;padding:6px 16px;outline:none!important;
+text-align:center;text-decoration:none;position:relative;
+-moz-box-sizing:border-box!important;line-height:16px;
+}
+.buttonHuge {
+-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;
+-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+cursor:pointer;display:inline-block;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:20px;
+font-weight: bold;padding:10px 16px;outline:none!important;
+text-align:center;text-decoration:none;position:relative;
+-moz-box-sizing:border-box!important;line-height:16px;
+}
+.buttonEpic {
+-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;
+-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+cursor:pointer;display:inline-block;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:28px;
+font-weight: bold;padding:16px 16px;outline:none!important;
+text-align:center;text-decoration:none;position:relative;
+-moz-box-sizing:border-box!important;line-height:16px;
+}
+.button:hover{text-decoration:none;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;}
+.button span {
+display:inline-block;float:left;
+height:16px;margin-right:5px;
+position:relative;width:16px;
+}
+
+
+.button-gray{border:1px solid #aaa;background:#ececec;background:-webkit-gradient(linear,left top,left bottom,from(#e1e1e1),to(#c1c1c1));background:-moz-linear-gradient(top,#e1e1e1,#c1c1c1);-pie-background:linear-gradient(top,#e1e1e1,#c1c1c1);border:1px solid #999;color:#555;
+}
+.button-gray:hover,.button-gray:focus{background:#f1f1f1;background:-webkit-gradient(linear,left top,left bottom,from(#e9e9e9),to(#d1d1d1));background:-moz-linear-gradient(top,#e9e9e9,#d1d1d1);-pie-background:linear-gradient(top,#e9e9e9,#d1d1d1);border:1px solid #bbb;color:#555;text-shadow:0 1px 0 #fff;
+}
+
+.button-orange{background:#f78d1d;background:-webkit-gradient(linear,left top,left bottom,from(#faa51a),to(#f47a20));background:-moz-linear-gradient(top,#faa51a,#f47a20);-pie-background:linear-gradient(top,#faa51a,#f47a20);border:solid 1px #d61;color:#fef4e9;text-shadow:0 1px 1px rgba(0,0,0,0.25);
+}
+.button-orange:hover,.button-orange:focus{background:#f47c20;background:-webkit-gradient(linear,left top,left bottom,from(#f88e11),to(#f06015));background:-moz-linear-gradient(top,#f88e11,#f06015);-pie-background:linear-gradient(top,#f88e11,#f06015);border:solid 1px #a51;color:#fef4e9;
+}
+.button-red{background-color:#C44747;background:-moz-linear-gradient(top,#DD5F5F 10%,#A92C2C 90%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0.1,#DD5F5F),color-stop(0.9,#A92C2C));-pie-background:linear-gradient(top,#DD5F5F 10%,#A92C2C 90%);border:1px solid #A92C2C;color:#fef4e9;text-shadow:0 1px 1px rgba(0,0,0,0.25);
+}
+.button-red:hover,.button-red:focus{background-color:#C44747;background:-moz-linear-gradient(top,#DD4141 10%,#A92121 90%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0.1,#DD4141),color-stop(0.9,#A92121));-pie-background:linear-gradient(top,#DD4141 10%,#A92121 90%);border:1px solid #711;color:#fef4e9;
+}
+.button-blue{background:#0095cd;background:-webkit-gradient(linear,left top,left bottom,from(#00adee),to(#0078a5));background:-moz-linear-gradient(top,#00adee,#0078a5);-pie-background:linear-gradient(top,#00adee,#0078a5);border:1px solid #034462;color:#fff;text-shadow:0 1px 1px #00adee;
+}
+.button-blue:hover,.button-blue:focus{background:#007ead;background:-webkit-gradient(linear,left top,left bottom,from(#0095cc),to(#00678e));background:-moz-linear-gradient(top,#0095cc,#00678e);-pie-background:linear-gradient(top,#0095cc,#00678e);border:1px solid #234;color:#fff;
+}
+.button-green{color:#fff;background:#8fc857;background:-webkit-gradient(linear,left top,left bottom,from(#8fc857),to(#5c9425));background:-moz-linear-gradient(top,#8fc857,#5c9425);-pie-background:linear-gradient(top,#8fc857,#5c9425);text-shadow:0 1px 1px rgba(0,0,0,0.25);border:1px solid #561;
+}
+.button-green:hover,.button-green:focus{border:1px solid #561;background:#8fbb44;background:-webkit-gradient(linear,left top,left bottom,from(#8fbb44),to(#5c8825));background:-moz-linear-gradient(top,#8fbb44,#5c8825);-pie-background:linear-gradient(top,#8fbb44,#5c8825);border:1px solid #342;
+}
+
+
+#gform_4 .gform_button {
+	-moz-border-radius:4px!important;
+	-webkit-border-radius:4px!important;
+	-khtml-border-radius:4px!important;
+	border-radius:4px!important;
+	-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3)!important;
+	-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3)!important;
+	box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3)!important;
+	cursor:pointer!important;
+	display:inline-block!important;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+	font-size:14px!important;
+	font-weight: bold!important;
+	padding:6px 16px!important;
+	outline:none!important;
+	text-align:center!important;
+	text-decoration:none!important;
+	position:relative!important;
+	-moz-box-sizing:border-box!important;
+	line-height:16px!important;
+}
+
+#gform_4 .gform_button{
+	color:#fff!important;
+	background:#8fc857;
+	background:-webkit-gradient(linear,left top,left bottom,from(#8fc857),to(#5c9425))!important;
+	background:-moz-linear-gradient(top,#8fc857,#5c9425)!important;
+	-pie-background:linear-gradient(top,#8fc857,#5c9425)!important;
+	text-shadow:0 1px 1px rgba(0,0,0,0.25)!important;
+	border:1px solid #561!important;
+}
+#gform_4 .gform_button:hover,.gform_button:focus{
+	border:1px solid #561!important;
+	background:#8fbb44!important;
+	background:-webkit-gradient(linear,left top,left bottom,from(#8fbb44),to(#5c8825))!important;
+	background:-moz-linear-gradient(top,#8fbb44,#5c8825)!important;
+	-pie-background:linear-gradient(top,#8fbb44,#5c8825)!important;
+	border:1px solid #342!important;
+}
+
+
+#gform_4 input, #gform_4 textarea {  
+    padding: 9px;  
+    border: solid 1px #E5E5E5;  
+    outline: 0;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 200px;  
+    background: #FFFFFF url('bg_form.png') left top repeat-x;  
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));  
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);  
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    }  
+  
+#gform_4 textarea {  
+    width: 400px;  
+    max-width: 400px;  
+    height: 150px;  
+    line-height: 150%;  
+    }  
+  
+#gform_4 input:hover,#gform_4 textarea:hover,  
+input:focus, textarea:focus {  
+    border-color: #C9C9C9;  
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;  
+    }  
+  
+#gform_4 .form label {  
+    margin-left: 10px;  
+    color: #999999;  
+    }  
+
+
+
+.copyright {
+	display: inline;
+}
+
+#simple_footer_nav #logo {
+	float: left;
+	padding-right: 20px;
+}
+
+#footer .content-pad {
+	padding: 20px 0 50px 0!important;
+}
+
+#simple_footer_nav .terms {
+	display: block;
+	width: 960px;
+	float: left;
+	margin-top: 20px;
+}
+
+.tw-share {
+	display: block;
+	float: left;
+}
+
+#wp_invoice_itemized_table {
+	border: 1px solid #777;
+}
+
+#wp_invoice_itemized_table thead {
+	border-bottom: 1px solid #777;
+}
+
+#wp_invoice_itemized_table th {
+	background-color: #BDBDBD;
+	color: #000;
+	font-variant: small-caps;
+}
+
+#wp_invoice_itemized_table tfoot {
+	border-top: 1px solid #777;
+}
+
+#wp_invoice_itemized_table .cost_column {
+	border-left: 1px solid #777;
+}
+
+#wp_invoice_itemized_table .title_column {
+	text-align: left;
+}
+
+#wp_invoice_itemized_table .cost_column {
+	text-align: right;
+}
+
+.wpi_money {font-weight: bold;}
+
+.wpi_left_col {
+float: left;
+width: 425px;
+}
+
+.wpi_right_col {
+float: right;
+width: 425px;
+}
+
+.alt_row {
+	background-color: #EEF0EB;
+	border: 1px dotted #B7C4D3;
+}
+
+.bottom_line_title {
+	text-align: right!important;
+	font-variant: small-caps;
+}
+
+#idSiteMeterHREF img {
+	display: none;
+}
+
+#simple_footer_nav ul {
+	float: left;
+	margin: 18px 10px 0 10px;
+}
+
+button,
+#cc_pay_button {
+-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;
+-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+cursor:pointer;display:inline-block;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;
+font-weight: bold;padding:6px 16px;outline:none!important;
+text-align:center;text-decoration:none;position:relative;
+-moz-box-sizing:border-box!important;line-height:16px;
+}
+
+button:hover{text-decoration:none;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;}
+
+#cc_pay_button {color:#fff;background:#8fc857;background:-webkit-gradient(linear,left top,left bottom,from(#8fc857),to(#5c9425));background:-moz-linear-gradient(top,#8fc857,#5c9425);-pie-background:linear-gradient(top,#8fc857,#5c9425);text-shadow:0 1px 1px rgba(0,0,0,0.25);border:1px solid #561;
+}
+#cc_pay_button :hover,#cc_pay_button :focus{border:1px solid #561;background:#8fbb44;background:-webkit-gradient(linear,left top,left bottom,from(#8fbb44),to(#5c8825));background:-moz-linear-gradient(top,#8fbb44,#5c8825);-pie-background:linear-gradient(top,#8fbb44,#5c8825);border:1px solid #342;
+}
+
+.gform_body input,
+.gform_body textarea {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px!important;
+	font-weight: bold;
+	color: #888;
+	border: 1px solid #ccc;
+}
+
+.gform_body input:focus,
+.gform_body textarea:focus {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px!important;
+	font-weight: bold;
+	color: #000;
+	border: 1px solid #888;
+}
+
+
+
+.gform_footer input[type="submit"],
+#gform_submit_button_1 {
+-moz-border-radius:4px!important;
+-webkit-border-radius:4px!important;
+-khtml-border-radius:4px!important;
+border-radius:4px!important;
+-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3)!important;
+-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3)!important;
+box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3)!important;
+cursor:pointer!important;
+display:inline-block!important;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+font-size:14px!important;
+font-weight: bold!important;padding:6px 16px!important;
+outline:none!important;
+text-align:center!important;text-decoration:none!important;position:relative!important;
+-moz-box-sizing:border-box!important;line-height:16px!important;
+}
+
+.gform_footer input[type="submit"]:hover,
+#gform_submit_button_1:hover{text-decoration:none!important;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0!important;}
+
+.gform_footer input[type="submit"],
+#gform_submit_button_1{
+	border:1px solid #aaa!important;
+	background:#ececec!important;
+	background:-webkit-gradient(linear,left top,left bottom,from(#e1e1e1),to(#c1c1c1));
+	background:-moz-linear-gradient(top,#e1e1e1,#c1c1c1)!important;
+	-pie-background:linear-gradient(top,#e1e1e1,#c1c1c1)!important;
+	border:1px solid #999!important;
+	color:#555!important;
+}
+.gform_footer input[type="submit"]:hover,.gform_footer input[type="submit"]:focus,
+#gform_submit_button_1:hover,#gform_submit_button_1:focus{
+	background:#f1f1f1!important;background:-webkit-gradient(linear,left top,left bottom,from(#e9e9e9),to(#d1d1d1))!important;
+	background:-moz-linear-gradient(top,#e9e9e9,#d1d1d1)!important;
+	-pie-background:linear-gradient(top,#e9e9e9,#d1d1d1)!important;
+	border:1px solid #bbb!important;color:#555!important;text-shadow:0 1px 0 #fff!important;
+}
+

@@ -1,0 +1,11 @@
+/*
+Plugin Name: Tipsy Social Icons
+Description: A widget that makes it easy to display a variety of popular social icons along with a Facebook-style tooltips.  Icons provided by Komodo Media's Social Icon Pack and Jason Frame's jQuery Tipsy plugin for effects.
+Version: 1.0
+Author: Tom McFarlin
+Author URI: http://tommcfarlin.com
+*/
+.tipsy-social-icons { border: 1px solid #ccc; padding: 1.5em; margin-top: 1em; }
+.tipsy-social-icons legend { font-weight: bold; }
+.tipsy-social-icons input:focus { background: #FFFAB7; }
+.tipsy-social-icons div { margin-bottom: 1em;  }

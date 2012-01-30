@@ -1,0 +1,43 @@
+****************************
+
+  PlatformBase Release Notes: 
+
+****************************
+
+  Note: 
+	Base shouldn't be replaced in your install
+	with every release. It defeats the purpose of 
+	using a child theme.
+
+	Use updates to this Platform Child Theme, as a 
+	reference to help you improve your own customizations.
+
+****************************
+
+Version 1.4.1
+- Bug Fix - fix path to setup.php for multisite.
+
+Version 1.4.0
+- Added clarifications to demonstration section
+- Looks for functions.php instead of core.init
+- Added setup.php for getting framework files
+
+Version 1.3.3
+- Added check that PlatformPro is available as parent.
+
+Version 1.3.2
+- Added Google Font Filter to functions.php 
+
+Version 1.3.1
+- Added advanced.php
+- Added Custom Options Docs
+
+Version 1.3.0
+- Additional Documentation
+- Added Custom Page Template Capability
+- Added Section Override Capability
+
+Version 1.0.4
+- Added Base Sidebar (Section)
+	Used to demonstrate how to add sidebars
+- Added Notes & Clarifications

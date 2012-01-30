@@ -1,0 +1,1013 @@
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.30 MB :: Real Memory 59.50 MB :: Peak Memory 59.40 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'sonnoea',
+    3 => 'rUP9TyevSwCf',
+    4 => 'gaoentian@sohu.com',
+    5 => 'sonnoea',
+    6 => 'John',
+    7 => '60.169.78.42',
+    8 => true,
+    9 => true,
+    10 => '3',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'sonnoea',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '60.169.78.42',
+    'OPTIN_TIME' => '2011-10-15 22:24:41',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'sonnoea',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '60.169.78.42',
+    'OPTIN_TIME' => '2011-10-15 22:24:41',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.30 MB :: Real Memory 59.50 MB :: Peak Memory 59.40 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'dowkerjaci',
+    3 => 'mncaExKCJMT5',
+    4 => 'minzhenan@sohu.com',
+    5 => 'dowkerjaci',
+    6 => 'billaa',
+    7 => '60.169.78.42',
+    8 => true,
+    9 => true,
+    10 => '4',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'dowkerjaci',
+    'MERGE2' => 'billaa',
+    'OPTIN_IP' => '60.169.78.42',
+    'OPTIN_TIME' => '2011-10-17 06:21:06',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'dowkerjaci',
+    'MERGE2' => 'billaa',
+    'OPTIN_IP' => '60.169.78.42',
+    'OPTIN_TIME' => '2011-10-17 06:21:06',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.31 MB :: Real Memory 59.50 MB :: Peak Memory 59.42 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'riguglioaugu',
+    3 => 'fMB9zkJU1rNH',
+    4 => 'gasperinitrw@hotmail.com',
+    5 => 'riguglioaugu',
+    6 => 'billaa',
+    7 => '60.169.78.42',
+    8 => true,
+    9 => true,
+    10 => '5',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'riguglioaugu',
+    'MERGE2' => 'billaa',
+    'OPTIN_IP' => '60.169.78.42',
+    'OPTIN_TIME' => '2011-10-17 07:40:42',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'riguglioaugu',
+    'MERGE2' => 'billaa',
+    'OPTIN_IP' => '60.169.78.42',
+    'OPTIN_TIME' => '2011-10-17 07:40:42',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.30 MB :: Real Memory 59.50 MB :: Peak Memory 59.40 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'johntingjenn',
+    3 => 'MGFDvWwkAkpP',
+    4 => 'chappl32351@tom.com',
+    5 => 'johntingjenn',
+    6 => 'aifseng',
+    7 => '60.169.78.42',
+    8 => true,
+    9 => true,
+    10 => '6',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'johntingjenn',
+    'MERGE2' => 'aifseng',
+    'OPTIN_IP' => '60.169.78.42',
+    'OPTIN_TIME' => '2011-10-17 07:41:19',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'johntingjenn',
+    'MERGE2' => 'aifseng',
+    'OPTIN_IP' => '60.169.78.42',
+    'OPTIN_TIME' => '2011-10-17 07:41:19',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.30 MB :: Real Memory 59.50 MB :: Peak Memory 59.40 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'ersiakwilm',
+    3 => 'OyeICK0aYpDA',
+    4 => 'till661431@tom.com',
+    5 => 'ersiakwilm',
+    6 => 'John',
+    7 => '60.169.78.42',
+    8 => true,
+    9 => true,
+    10 => '7',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'ersiakwilm',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '60.169.78.42',
+    'OPTIN_TIME' => '2011-10-17 09:21:29',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'ersiakwilm',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '60.169.78.42',
+    'OPTIN_TIME' => '2011-10-17 09:21:29',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.30 MB :: Real Memory 59.50 MB :: Peak Memory 59.40 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'eedonroyc',
+    3 => 'GjQWjJTdnGIa',
+    4 => 'brannworste@sohu.com',
+    5 => 'eedonroyc',
+    6 => 'andeson',
+    7 => '60.169.78.52',
+    8 => true,
+    9 => true,
+    10 => '8',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'eedonroyc',
+    'MERGE2' => 'andeson',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-24 13:40:10',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'eedonroyc',
+    'MERGE2' => 'andeson',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-24 13:40:10',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.30 MB :: Real Memory 59.50 MB :: Peak Memory 59.40 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'ronsanigarr',
+    3 => 'vkTWMJ2AgVlr',
+    4 => 'andongsu@sohu.com',
+    5 => 'ronsanigarr',
+    6 => 'billaa',
+    7 => '60.169.78.52',
+    8 => true,
+    9 => true,
+    10 => '9',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'ronsanigarr',
+    'MERGE2' => 'billaa',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-24 19:01:18',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'ronsanigarr',
+    'MERGE2' => 'billaa',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-24 19:01:18',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.30 MB :: Real Memory 59.50 MB :: Peak Memory 59.40 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'monburl',
+    3 => 'mKTsDIih0s6P',
+    4 => 'zabkaazz@hotmail.com',
+    5 => 'monburl',
+    6 => 'John',
+    7 => '60.169.78.52',
+    8 => true,
+    9 => true,
+    10 => '10',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'monburl',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-24 21:12:28',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'monburl',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-24 21:12:28',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.30 MB :: Real Memory 59.50 MB :: Peak Memory 59.40 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'zaridana',
+    3 => '982b3QNldrX2',
+    4 => 'type996299@tom.com',
+    5 => 'zaridana',
+    6 => 'andeson',
+    7 => '60.169.78.52',
+    8 => true,
+    9 => true,
+    10 => '11',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'zaridana',
+    'MERGE2' => 'andeson',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-25 06:50:40',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'zaridana',
+    'MERGE2' => 'andeson',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-25 06:50:40',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.30 MB :: Real Memory 59.50 MB :: Peak Memory 59.40 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'lawalwend',
+    3 => 'gWo93BfZwvzZ',
+    4 => 'f2ecda018@163.com',
+    5 => 'lawalwend',
+    6 => 'John',
+    7 => '60.169.78.52',
+    8 => true,
+    9 => true,
+    10 => '12',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'lawalwend',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-25 13:20:16',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'lawalwend',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-25 13:20:16',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.30 MB :: Real Memory 59.50 MB :: Peak Memory 59.40 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'learl',
+    3 => 'OgCfwWL2uFYy',
+    4 => 'saidikqc@hotmail.com',
+    5 => 'learl',
+    6 => 'andeson',
+    7 => '60.169.78.52',
+    8 => true,
+    9 => true,
+    10 => '13',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'learl',
+    'MERGE2' => 'andeson',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-25 15:35:05',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'learl',
+    'MERGE2' => 'andeson',
+    'OPTIN_IP' => '60.169.78.52',
+    'OPTIN_TIME' => '2011-10-25 15:35:05',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => false,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => 'No response from API server.',
+     'errorCode' => '-98',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+PHP v5.3.5 :: WordPress® v3.2.1 :: s2Member® v111105 :: s2Member® Pro v111105
+Memory 57.74 MB :: Real Memory 58.00 MB :: Peak Memory 57.84 MB :: Real Peak Memory 58.00 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'louisstore',
+    3 => 'super123',
+    4 => 'bessey27374@tom.com',
+    5 => 'louisst',
+    6 => 'John',
+    7 => '117.41.184.199',
+    8 => true,
+    9 => true,
+    10 => '14',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'louisst',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '117.41.184.199',
+    'OPTIN_TIME' => '2011-11-22 20:42:41',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'louisst',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '117.41.184.199',
+    'OPTIN_TIME' => '2011-11-22 20:42:41',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => true,
+  'api_success' => true,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => '',
+     'errorCode' => '',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+PHP v5.3.5 :: WordPress® v3.2.1 :: s2Member® v111105 :: s2Member® Pro v111105
+Memory 56.42 MB :: Real Memory 56.75 MB :: Peak Memory 56.52 MB :: Real Peak Memory 56.75 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'allawaygolf',
+    3 => 'super123',
+    4 => 'dingneiq63212@163.com',
+    5 => 'allawayg',
+    6 => 'andeson',
+    7 => '117.41.184.199',
+    8 => true,
+    9 => true,
+    10 => '29',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'allawayg',
+    'MERGE2' => 'andeson',
+    'OPTIN_IP' => '117.41.184.199',
+    'OPTIN_TIME' => '2011-12-06 14:05:18',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'allawayg',
+    'MERGE2' => 'andeson',
+    'OPTIN_IP' => '117.41.184.199',
+    'OPTIN_TIME' => '2011-12-06 14:05:18',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => true,
+  'api_success' => true,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => '',
+     'errorCode' => '',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+PHP v5.3.5 :: WordPress® v3.2.1 :: s2Member® v111105 :: s2Member® Pro v111105
+Memory 56.42 MB :: Real Memory 56.75 MB :: Peak Memory 56.52 MB :: Real Peak Memory 56.75 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'discountgoose',
+    3 => 'super123',
+    4 => 'shiguoh6607@163.com',
+    5 => 'discountgo',
+    6 => 'John',
+    7 => '117.41.184.199',
+    8 => true,
+    9 => true,
+    10 => '30',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'discountgo',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '117.41.184.199',
+    'OPTIN_TIME' => '2011-12-08 06:15:37',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'discountgo',
+    'MERGE2' => 'John',
+    'OPTIN_IP' => '117.41.184.199',
+    'OPTIN_TIME' => '2011-12-08 06:15:37',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => true,
+  'api_success' => true,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => '',
+     'errorCode' => '',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+PHP v5.3.5 :: WordPress® v3.2.1 :: s2Member® v111105 :: s2Member® Pro v111105
+Memory 56.42 MB :: Real Memory 56.75 MB :: Peak Memory 56.52 MB :: Real Peak Memory 56.75 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'mobilephone',
+    3 => 'super123',
+    4 => 'jinhaoz05640@163.com',
+    5 => 'mobileph',
+    6 => 'aifseng',
+    7 => '117.41.184.199',
+    8 => true,
+    9 => true,
+    10 => '31',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'mobileph',
+    'MERGE2' => 'aifseng',
+    'OPTIN_IP' => '117.41.184.199',
+    'OPTIN_TIME' => '2011-12-09 01:55:42',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'mobileph',
+    'MERGE2' => 'aifseng',
+    'OPTIN_IP' => '117.41.184.199',
+    'OPTIN_TIME' => '2011-12-09 01:55:42',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => true,
+  'api_success' => true,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => '',
+     'errorCode' => '',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+
+PHP v5.3.5 :: WordPress® v3.2.1 :: s2Member® v111105 :: s2Member® Pro v111105
+Memory 56.42 MB :: Real Memory 56.75 MB :: Peak Memory 56.52 MB :: Real Peak Memory 56.75 MB
+maintainwebsolutions.com/wp-login.php?action=register
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+array (
+  'function' => 'process_list_servers',
+  'func_get_args' => 
+  array (
+    0 => 'subscriber',
+    1 => '0',
+    2 => 'cheapgowns',
+    3 => 'super123',
+    4 => 'kezhig18714@163.com',
+    5 => 'cheapgo',
+    6 => 'andeson',
+    7 => '117.41.184.199',
+    8 => true,
+    9 => true,
+    10 => '32',
+  ),
+  'api_method' => 'listSubscribe',
+  'list' => '4c9c2c4411',
+  'list_id' => '4c9c2c4411',
+  'merge_array' => 
+  array (
+    'MERGE1' => 'cheapgo',
+    'MERGE2' => 'andeson',
+    'OPTIN_IP' => '117.41.184.199',
+    'OPTIN_TIME' => '2011-12-09 11:42:27',
+  ),
+  'api_merge_array' => 
+  array (
+    'MERGE1' => 'cheapgo',
+    'MERGE2' => 'andeson',
+    'OPTIN_IP' => '117.41.184.199',
+    'OPTIN_TIME' => '2011-12-09 11:42:27',
+  ),
+  'api_email_type' => 'html',
+  'api_double_optin' => true,
+  'api_update_existing' => false,
+  'api_replace_interests' => true,
+  'api_send_welcome' => false,
+  'api_response' => true,
+  'api_success' => true,
+  'api_properties' => 
+  NC_MCAPI::__set_state(array(
+     'version' => '1.3',
+     'errorMessage' => '',
+     'errorCode' => '',
+     'apiUrl' => 
+    array (
+      'scheme' => 'http',
+      'host' => 'api.mailchimp.com',
+      'path' => '/1.3/',
+      'query' => 'output=php',
+      'prefix' => 'us1',
+    ),
+     'timeout' => 300,
+     'chunkSize' => 8192,
+     'api_key' => '6291991c5769f0fe02fe6b021f44d40c-us1',
+     'secure' => true,
+  )),
+)
+

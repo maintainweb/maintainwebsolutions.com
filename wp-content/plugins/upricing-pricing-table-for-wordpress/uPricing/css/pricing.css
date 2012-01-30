@@ -1,0 +1,695 @@
+/* Default styling */
+
+.uds-pricing-table table,
+#content .uds-pricing-table table {
+	width: 100%;
+	text-align: center;
+	border: none;
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+}
+
+.uds-pricing-table th,
+#content .uds-pricing-table th {
+	line-height: 18px;
+	padding: 9px 24px;
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.uds-pricing-table thead th.header-shadow.column-0, 
+#content .uds-pricing-table thead th.header-shadow.column-0 {
+	border: none !important;
+}
+
+.uds-pricing-table thead th h3
+#content .uds-pricing-table thead th h3,
+.uds-pricing-table thead th p,
+#content .uds-pricing-table thead th p {
+	text-align: center;
+	font-family: Helvetica, Arial;
+}
+
+.uds-pricing-table thead th p.price,
+#content .uds-pricing-table thead th p.price {
+	font-size: 28px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px white;
+	margin-bottom: 9px;
+	color: #666;	
+}
+
+.uds-pricing-table thead th p.unit,
+#content .uds-pricing-table thead th p.unit {
+	font-size: 12px;
+	margin-bottom: 0px;
+	text-shadow: 1px 1px 1px white;
+}
+
+.uds-pricing-table thead th h3.uds-product-name,
+#content .uds-pricing-table thead th h3.uds-product-name {
+	font-size: 14px;
+	background-color: #c1c1c1;
+	color: #fafafa;
+	text-shadow: 1px 1px 1px #999;
+	padding: 5px 0px;
+	font-family: Helvetica, Arial;
+	text-align: center;
+}
+
+.uds-pricing-table thead th,
+#content .uds-pricing-table thead th {
+	padding: 0px 0px 9px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.uds-pricing-table thead th.odd,
+#content .uds-pricing-table thead th.odd {
+	background-color: #f3f3f3;
+}
+
+.uds-pricing-table thead th.column-0,
+#content .uds-pricing-table thead th.column-0 {
+	background-color: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.uds-pricing-table tr.odd td,
+#content .uds-pricing-table tr.odd td {
+	background-color: #fff;
+}
+
+.uds-pricing-table tr.even td,
+#content .uds-pricing-table tr.even td {
+	background-color: #eee;
+}
+
+.uds-pricing-table tbody tr.even,
+#content .uds-pricing-table tbody tr.even {
+	background-color: #eee;
+	padding: 15px;
+}
+
+.uds-pricing-table thead th.header-shadow,
+#content .uds-pricing-table thead th.header-shadow {
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.uds-pricing-table tbody th,
+#content .uds-pricing-table tbody th {
+	padding-left: 9px;
+	border: 1px solid #ddd;
+	text-align: left;
+	font-weight: normal;
+}
+
+.uds-pricing-table tbody td,
+#content .uds-pricing-table tbody td {
+	padding: 9px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+.uds-pricing-table tfoot th,
+#content .uds-pricing-table tfoot th {
+	text-align: center;
+	padding: 30px 17px 30px 0px;
+}
+
+.uds-pricing-table tfoot th.footer-shadow,
+#content .uds-pricing-table tfoot th.footer-shadow {
+	padding: 0px;
+	height: 5px;
+} 
+
+/* Shadows */
+
+.uds-pricing-table thead th.featured-l h3,
+#content .uds-pricing-table thead th.featured-l h3 {
+	background-image: url(../images/shadow-left.png);
+	background-repeat: repeat-y;
+	background-position: top right;
+}
+
+.uds-pricing-table thead th.featured-r h3,
+#content .uds-pricing-table thead th.featured-r h3 {
+	background-image: url(../images/shadow-right.png);
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+
+.uds-pricing-table th.featured-l,
+#content .uds-pricing-table th.featured-l,
+.uds-pricing-table td.featured-l,
+#content .uds-pricing-table td.featured-l {
+	background-image: url(../images/shadow-left.png);
+	background-repeat: repeat-y;
+	background-position: top right;
+}
+
+.uds-pricing-table th.featured-r,
+#content .uds-pricing-table th.featured-r,
+.uds-pricing-table td.featured-r,
+#content .uds-pricing-table td.featured-r {
+	background-image: url(../images/shadow-right.png);
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+
+.uds-pricing-table thead tr th.header-shadow.featured,
+#content .uds-pricing-table thead tr th.header-shadow.featured {
+	background-color: transparent;
+	background-image: url(../images/shadow-top.png);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	border: none;
+}
+
+.uds-pricing-table.ie6 thead tr th.header-shadow.featured,
+#content .uds-pricing-table.ie6 thead tr th.header-shadow.featured {
+	background-image: none;
+}
+
+.uds-pricing-table thead tr th.header-shadow.featured-l,
+#content .uds-pricing-table thead tr th.header-shadow.featured-l {
+	background-color: transparent;
+	background-image: url(../images/shadow-top-left.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.uds-pricing-table thead tr th.header-shadow.featured-r,
+#content .uds-pricing-table thead tr th.header-shadow.featured-r {
+	background-color: transparent;
+	background-image: url(../images/shadow-top-right.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+.uds-pricing-table tfoot tr th.footer-shadow.featured,
+#content .uds-pricing-table tfoot tr th.footer-shadow.featured {
+	background-color: transparent;
+	background-image: url(../images/shadow-bottom.png);
+	background-repeat: repeat-x;
+	background-position: top left;
+	border: none;
+}
+
+.uds-pricing-table.ie6 tfoot tr th.footer-shadow.featured,
+#content .uds-pricing-table.ie6 tfoot tr th.footer-shadow.featured {
+	background-image: none;
+}
+
+.uds-pricing-table tfoot tr th.footer-shadow.featured-l,
+#content .uds-pricing-table tfoot tr th.footer-shadow.featured-l {
+	background-color: transparent;
+	background-image: url(../images/shadow-bottom-left.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.uds-pricing-table tfoot tr th.footer-shadow.featured-r,
+#content .uds-pricing-table tfoot tr th.footer-shadow.featured-r {
+	background-color: transparent;
+	background-image: url(../images/shadow-bottom-right.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.uds-pricing-table tfoot tr th.footer-shadow.featured,
+#content .uds-pricing-table tfoot tr th.footer-shadow.featured,
+.uds-pricing-table tfoot tr th.footer-shadow.featured-l,
+#content .uds-pricing-table tfoot tr th.footer-shadow.featured-l,
+.uds-pricing-table tfoot tr th.footer-shadow.featured-r,
+#content .uds-pricing-table tfoot tr th.footer-shadow.featured-r,
+.uds-pricing-table thead tr th.header-shadow.featured,
+#content .uds-pricing-table thead tr th.header-shadow.featured,
+.uds-pricing-table thead tr th.header-shadow.featured-l,
+#content .uds-pricing-table thead tr th.header-shadow.featured-l,
+.uds-pricing-table thead tr th.header-shadow.featured-r,
+#content .uds-pricing-table thead tr th.header-shadow.featured-r {
+	border: none !important;
+}
+
+/* END Shadows */
+
+/* Buttons */
+
+.uds-pricing-table tfoot th .read-more,
+#content .uds-pricing-table tfoot th .read-more {
+	margin: 0 auto;
+	background: url(../images/button.png) no-repeat top left;
+	font-size: 13px;
+	padding: 14px 7px 14px 26px;
+	position: relative;
+	color: #555;
+	text-decoration: none;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px #fff;
+	height: 43px;
+	outline: none;
+}
+
+.uds-pricing-table tfoot th .read-more-right,
+#content .uds-pricing-table tfoot th .read-more-right {
+	background: url(../images/button.png) no-repeat top right;
+	display: block;
+	float: right;
+	width: 20px;
+	height: 43px;
+	position: absolute;
+	top: 0px;
+	right: -20px;
+}
+
+.uds-pricing-table tfoot th .read-more:hover,
+#content .uds-pricing-table tfoot th .read-more:hover {
+	background-position: 0px -44px;
+}
+
+.uds-pricing-table tfoot th .read-more:hover .read-more-right,
+#content .uds-pricing-table tfoot th .read-more:hover .read-more-right {
+	background-position: -281px -44px;
+}
+
+.uds-pricing-table tfoot th .read-more:active,
+#content .uds-pricing-table tfoot th .read-more:active {
+	background-position: 0px -88px;
+	outline: none;
+}
+
+.uds-pricing-table tfoot th .read-more:active .read-more-right,
+#content .uds-pricing-table tfoot th .read-more:active .read-more-right {
+	background-position: -281px -88px;
+}
+
+.uds-pricing-table.ie6 tfoot th .read-more,
+#content .uds-pricing-table.ie6 tfoot th .read-more {
+	background-color: #efefef;
+	border: 1px solid #ccc;
+	color: black;
+	padding: 7px 15px;
+}
+
+.uds-pricing-table.ie6 tfoot th .read-more-right,
+#content .uds-pricing-table.ie6 tfoot th .read-more-right {
+	display: none;
+}
+
+/* END Buttons */
+
+.uds-pricing-table tfoot tr,
+#content .uds-pricing-table tfoot tr {
+	border: none;
+}
+
+.uds-pricing-table tr th.featured,
+.uds-pricing-table tr td.featured,
+#content .uds-pricing-table tr th.featured,
+#content .uds-pricing-table tr td.featured {
+	background-color: #f5f5f5;
+}
+
+.uds-pricing-table thead tr th.featured,
+#content .uds-pricing-table thead tr th.featured {
+
+}
+
+.uds-pricing-table tfoot tr th.featured,
+#content .uds-pricing-table tfoot tr th.featured {
+	border: 1px solid #ddd;
+}
+
+.uds-pricing-table thead th.featured h3.uds-product-name, 
+#content .uds-pricing-table thead th.featured h3.uds-product-name {
+	border-left: 1px solid #c1c1c1;
+	border-right: 1px solid #c1c1c1;
+}
+
+/* Dark with green featued column */
+
+.uds-pricing-table.dark th,
+#content .uds-pricing-table.dark th, .uds-pricing-table.dark td,
+#content .uds-pricing-table.dark td {
+	color: #eee;
+}
+
+.uds-pricing-table.dark thead th,
+#content .uds-pricing-table.dark thead th {
+	padding: 0px 0px 9px;
+	border-left: 1px solid #242424;
+	border-right: 1px solid #242424;
+}
+
+.uds-pricing-table.dark tfoot tr th.featured,
+#content .uds-pricing-table.dark tfoot tr th.featured {
+	border: none;
+}
+
+.uds-pricing-table.dark thead th.odd,
+#content .uds-pricing-table.dark thead th.odd {
+	background-color: #404040;
+}
+
+.uds-pricing-table.dark thead th.even,
+#content .uds-pricing-table.dark thead th.even {
+	background-color: #666;
+}
+
+
+.uds-pricing-table.dark thead th h3.uds-product-name,
+#content .uds-pricing-table.dark thead th h3.uds-product-name {
+	background-color: #242424;
+	text-shadow: 1px 1px 1px black;
+	color: #fff;
+	border-left: 1px solid #242424;
+	border-right: 1px solid #242424;
+}
+
+.uds-pricing-table.dark thead th.featured h3.uds-product-name,
+#content .uds-pricing-table.dark thead th.featured h3.uds-product-name {
+	background-color: #819835;
+	border: none;
+	
+}
+
+.uds-pricing-table.dark thead th p.price, .uds-pricing-table.dark thead th p.unit,
+#content .uds-pricing-table.dark thead th p.price, #content .uds-pricing-table.dark thead th p.unit {
+	text-shadow: 1px 1px 1px black;
+	color: #fff;	
+}
+
+.uds-pricing-table.dark tr.even td, .uds-pricing-table.dark tr.even th,
+#content .uds-pricing-table.dark tr.even td, #content .uds-pricing-table.dark tr.even th {
+	background-color: #666;
+}
+
+.uds-pricing-table.dark tr.odd td, .uds-pricing-table.dark tr.odd th,
+#content .uds-pricing-table.dark tr.odd td, #content .uds-pricing-table.dark tr.odd th {
+	background-color: #404040;
+}
+
+.uds-pricing-table.dark tbody td, .uds-pricing-table.dark tbody th,
+#content .uds-pricing-table.dark tbody td, #content .uds-pricing-table.dark tbody th {
+	border: 1px solid #353535;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.uds-pricing-table.dark thead th.column-0,
+#content .uds-pricing-table.dark thead th.column-0 {
+	border-bottom: 1px solid #242424;
+	border-left: none;
+	border-right: none;
+	background-color: transparent;
+}
+
+.uds-pricing-table.dark thead tr th.featured,
+#content .uds-pricing-table.dark thead tr th.featured {
+	border: none;
+}
+
+.uds-pricing-table.dark tr th.featured,
+.uds-pricing-table.dark tr td.featured,
+#content .uds-pricing-table.dark tr th.featured,
+#content .uds-pricing-table.dark tr td.featured {
+	background-color: #90aa3c;
+	border: 1px solid #748a2b;
+	border-right: 1px solid #353535;
+}
+
+.uds-pricing-table.ie6.dark tr th.featured,
+.uds-pricing-table.ie6.dark tr td.featured,
+#content .uds-pricing-table.ie6.dark tr th.featured,
+#content .uds-pricing-table.ie6.dark tr td.featured {
+	background-color: #90aa3c !important;
+}
+
+.uds-pricing-table.dark tr.even th.featured,
+.uds-pricing-table.dark tr.even td.featured, 
+#content .uds-pricing-table.dark tr.even th.featured,
+#content .uds-pricing-table.dark tr.even td.featured {
+	background-color: #819835;
+}
+
+.uds-pricing-table.dark tfoot tr th.featured,
+#content .uds-pricing-table.dark tfoot tr th.featured {
+	border: 1px solid #5e7a29;
+}
+
+/* blue and yellow */
+
+.uds-pricing-table.blue-yellow th,
+#content .uds-pricing-table.blue-yellow th, .uds-pricing-table.blue-yellow td,
+#content .uds-pricing-table.blue-yellow td {
+		text-shadow: 1px 1px 1px #0e4156;
+	color: #fff;	
+}
+
+.uds-pricing-table.blue-yellow thead th,
+#content .uds-pricing-table.blue-yellow thead th {
+	padding: 0px 0px 9px;
+	border-left: 1px solid #229bcc;
+	border-right: 1px solid #229bcc;
+}
+
+.uds-pricing-table.blue-yellow tfoot tr th.featured,
+#content .uds-pricing-table.blue-yellow tfoot tr th.featured {
+	border: none;
+}
+
+.uds-pricing-table.blue-yellow thead th.odd,
+#content .uds-pricing-table.blue-yellow thead th.odd {
+	background-color: #45a8d1;
+}
+
+.uds-pricing-table.blue-yellow thead th.even,
+#content .uds-pricing-table.blue-yellow thead th.even {
+	background-color: #4dbce9;
+}
+
+
+.uds-pricing-table.blue-yellow thead th h3.uds-product-name,
+#content .uds-pricing-table.blue-yellow thead th h3.uds-product-name {
+	background-color: #317b99;
+	text-shadow: 1px 1px 1px #08374a;
+	color: #e4f7ff;
+}
+
+.uds-pricing-table.blue-yellow thead th.featured h3.uds-product-name,
+#content .uds-pricing-table.blue-yellow thead th.featured h3.uds-product-name {
+	background-color: #f2c45a;
+	border: none;
+	text-shadow: 1px 1px 1px #fff2d4;
+	color: #49360b;
+}
+
+.uds-pricing-table.blue-yellow thead th p.price, .uds-pricing-table.blue-yellow thead th p.unit,
+#content .uds-pricing-table.blue-yellow thead th p.price, #content .uds-pricing-table.blue-yellow thead th p.unit {
+	text-shadow: 1px 1px 1px #0e4156;
+	color: #fff;	
+}
+
+.uds-pricing-table.blue-yellow thead th.featured p.price, .uds-pricing-table.blue-yellow thead th.featured p.unit,
+#content .uds-pricing-table.blue-yellow thead th.featured p.price, #content .uds-pricing-table.blue-yellow thead th.featured p.unit {
+	text-shadow: 1px 1px 1px #fff2d4;
+	color: #49360b;	
+}
+
+
+.uds-pricing-table.blue-yellow tr.even td, .uds-pricing-table.blue-yellow tr.even th,
+#content .uds-pricing-table.blue-yellow tr.even td, #content .uds-pricing-table.blue-yellow tr.even th {
+	background-color: #4dbce9;
+}
+
+.uds-pricing-table.blue-yellow tr.odd td, .uds-pricing-table.blue-yellow tr.odd th,
+#content .uds-pricing-table.blue-yellow tr.odd td, #content .uds-pricing-table.blue-yellow tr.odd th {
+	background-color: #45a8d1;
+}
+
+.uds-pricing-table.blue-yellow tbody td, .uds-pricing-table.blue-yellow tbody th,
+#content .uds-pricing-table.blue-yellow tbody td, #content .uds-pricing-table.blue-yellow tbody th {
+	border: 1px solid #229bcc;
+	text-shadow: 1px 1px 1px #229bcc;
+}
+
+.uds-pricing-table.blue-yellow thead th.column-0,
+#content .uds-pricing-table.blue-yellow thead th.column-0 {
+	border-bottom: 1px solid #229bcc;
+	border-left: none;
+	border-right: none;
+	background-color: transparent;
+}
+
+.uds-pricing-table.blue-yellow thead tr th.featured,
+#content .uds-pricing-table.blue-yellow thead tr th.featured {
+	border: none;
+}
+
+.uds-pricing-table.blue-yellow tr th.featured,
+.uds-pricing-table.blue-yellow tr td.featured,
+#content .uds-pricing-table.blue-yellow tr th.featured,
+#content .uds-pricing-table.blue-yellow tr td.featured {
+	background-color: #d9b050;
+	border: 1px solid #d0a645;
+	text-shadow: 1px 1px 1px #fff2d4;
+	color: #49360b;	
+}
+
+.uds-pricing-table.ie6.blue-yellow tr th.featured,
+.uds-pricing-table.ie6.blue-yellow tr td.featured,
+#content .uds-pricing-table.ie6.blue-yellow tr th.featured,
+#content .uds-pricing-table.ie6.blue-yellow tr td.featured {
+	background-color: #d9b050 !important;
+}
+
+.uds-pricing-table.blue-yellow tr th.featured-l,
+.uds-pricing-table.blue-yellow tr td.featured-l,
+#content .uds-pricing-table.blue-yellow tr th.featured-l,
+#content .uds-pricing-table.blue-yellow tr td.featured-l {
+	border-right: 1px solid #d0a645;
+}
+
+
+.uds-pricing-table.blue-yellow tr.even th.featured,
+.uds-pricing-table.blue-yellow tr.even td.featured, 
+#content .uds-pricing-table.blue-yellow tr.even th.featured,
+#content .uds-pricing-table.blue-yellow tr.even td.featured {
+	background-color: #f2c45a;
+}
+
+.uds-pricing-table.blue-yellow tfoot tr th.featured,
+#content .uds-pricing-table.blue-yellow tfoot tr th.featured {
+	border: 1px solid #d0a645;
+}
+
+/* Grey and orange */
+
+.uds-pricing-table.light thead th,
+#content .uds-pricing-table.light thead th {
+	padding: 0px 0px 9px;
+	border-left: 1px solid #a8b5b9;
+	border-right: 1px solid #a8b5b9;
+	border-top: none;
+}
+
+.uds-pricing-table.light thead th.odd,
+#content .uds-pricing-table.light thead th.odd {
+	background-color: #dddfe4;
+}
+
+.uds-pricing-table.light thead th.even,
+#content .uds-pricing-table.light thead th.even {
+	background-color: #f7f9fe;
+}
+
+
+.uds-pricing-table.light thead th h3.uds-product-name,
+#content .uds-pricing-table.light thead th h3.uds-product-name {
+	background-color: #b8bbc0;
+	text-shadow: 1px 1px 1px #76868a;
+	color: #fff;
+}
+
+.uds-pricing-table.light thead th.featured h3.uds-product-name,
+#content .uds-pricing-table.light thead th.featured h3.uds-product-name {
+	background-color: #ecf1f2;
+	border: none;
+	color: #666;
+	text-shadow: 1px 1px 1px white;
+}
+
+.uds-pricing-table.light tr.even td, .uds-pricing-table.light tr.even th,
+#content .uds-pricing-table.light tr.even td, #content .uds-pricing-table.light tr.even th {
+	background-color: #f7f9fe;
+}
+
+.uds-pricing-table.light tr.odd td, .uds-pricing-table.light tr.odd th,
+#content .uds-pricing-table.light tr.odd td, #content .uds-pricing-table.light tr.odd th {
+	background-color: #dddfe4;
+}
+
+.uds-pricing-table.light tbody td, .uds-pricing-table.light tbody th,
+#content .uds-pricing-table.light tbody td, #content .uds-pricing-table.light tbody th {
+	border: 1px solid #b2b5bb;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.uds-pricing-table.light thead th.column-0,
+#content .uds-pricing-table.light thead th.column-0 {
+	border-bottom: 1px solid #a8b5b9;
+	border-left: none;
+	border-right: none;
+	background-color: transparent;
+}
+
+.uds-pricing-table.light tr th.featured,
+.uds-pricing-table.light tr td.featured,
+#content .uds-pricing-table.light tr th.featured,
+#content .uds-pricing-table.light tr td.featured {
+	border: 1px solid #a8b5b9;
+	text-shadow: 1px 1px 1px #fff;
+	background-color: #c5d0d3
+}
+
+.uds-pricing-table.light tr td.featured,
+#content .uds-pricing-table.light tr td.featured {
+	border-right: 1px solid #a8b5b9;
+}
+
+.uds-pricing-table.light  tr.even th.featured,
+.uds-pricing-table.light  tr.even td.featured, 
+#content .uds-pricing-table.light  tr.even th.featured,
+#content .uds-pricing-table.light  tr.even td.featured {
+	background-color: #ecf1f2;
+}
+
+/* Lime */
+
+.uds-pricing-table.lime thead th h3.uds-product-name,
+#content .uds-pricing-table.lime thead th h3.uds-product-name {
+	background-color: #878b83;
+	text-shadow: 1px 1px 1px #76868a;
+	color: #fff;
+}
+
+.uds-pricing-table.lime thead th.featured h3.uds-product-name,
+#content .uds-pricing-table.lime thead th.featured h3.uds-product-name {
+	background-color: #878b83;
+	border: none;
+	color: #fff;
+}
+
+.uds-pricing-table.lime tr.even td, .uds-pricing-table.lime tr.even th,
+#content .uds-pricing-table.lime tr.even td, #content .uds-pricing-table.lime tr.even th {
+	background-color: #d8f0c0;
+}
+
+.uds-pricing-table.lime thead th.featured,
+#content .uds-pricing-table.lime thead th.featured  {
+	background: inherit;
+}
+
+.uds-pricing-table.lime tr.odd td, .uds-pricing-table.lime tr.odd th,
+#content .uds-pricing-table.lime tr.odd td, #content .uds-pricing-table.lime tr.odd th {
+	background-color: #a8d848;
+}
+
+.uds-pricing-table.lime tbody td, .uds-pricing-table.lime tbody th,
+#content .uds-pricing-table.lime tbody td, #content .uds-pricing-table.lime tbody th {
+	border: 1px solid #89b630;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.uds-pricing-table.lime thead th.column-0,
+#content .uds-pricing-table.lime thead th.column-0 {
+	border-bottom: 1px solid #89b630;
+	border-left: none;
+	border-right: none;
+	background-color: transparent;
+}

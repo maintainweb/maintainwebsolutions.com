@@ -1,0 +1,372 @@
+# Copyright (C) 2010 Client Status
+# This file is distributed under the same license as the Client Status package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Client Status 1.3.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/client-status\n"
+"POT-Creation-Date: 2011-04-07 03:57:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: client-status.php:114 client-status.php:331
+msgid "Client Type"
+msgstr ""
+
+#: client-status.php:115
+msgctxt "column name"
+msgid "Date"
+msgstr ""
+
+#: client-status.php:131
+msgid "Client Information"
+msgstr ""
+
+#: client-status.php:139
+msgid "Site URL"
+msgstr ""
+
+#: client-status.php:142
+msgid "Client Email"
+msgstr ""
+
+#: client-status.php:143
+msgid ""
+"Allows sending status emails to client; <br />separate multiple emails with "
+"a comma"
+msgstr ""
+
+#: client-status.php:160 dashboard.php:100
+msgid "Status: "
+msgstr ""
+
+#: client-status.php:160 dashboard.php:100
+msgid "Adjust privacy settings"
+msgstr ""
+
+#: client-status.php:160 dashboard.php:100
+msgid "Not Indexable"
+msgstr ""
+
+#: client-status.php:160 dashboard.php:100
+msgid "Indexable"
+msgstr ""
+
+#: client-status.php:161 dashboard.php:97
+msgid "WordPress Version: "
+msgstr ""
+
+#: client-status.php:162 dashboard.php:98
+msgid "Plugin Updates: "
+msgstr ""
+
+#: client-status.php:163 dashboard.php:99
+msgid "Theme Updates: "
+msgstr ""
+
+#: client-status.php:165 client-status.php:277 dashboard.php:180
+msgid "An error has occurred"
+msgstr ""
+
+#: client-status.php:170 dashboard.php:163
+msgid "Server OS: "
+msgstr ""
+
+#: client-status.php:171 dashboard.php:164
+msgid "PHP Version: "
+msgstr ""
+
+#: client-status.php:172 dashboard.php:165
+msgid "MySQL Version: "
+msgstr ""
+
+#: client-status.php:248
+msgid "Your website has updates available:"
+msgstr ""
+
+#: client-status.php:252
+msgid "Not indexable"
+msgstr ""
+
+#: client-status.php:255
+msgid "New version of WordPress available"
+msgstr ""
+
+#: client-status.php:259
+msgid "New plugin updates available"
+msgstr ""
+
+#: client-status.php:262 client-status.php:271 dashboard.php:137
+#: dashboard.php:154
+msgid "You have version "
+msgstr ""
+
+#: client-status.php:262 client-status.php:271 dashboard.php:137
+#: dashboard.php:154
+msgid " installed."
+msgstr ""
+
+#: client-status.php:262 client-status.php:271 dashboard.php:137
+#: dashboard.php:154
+msgid " Update to "
+msgstr ""
+
+#: client-status.php:268
+msgid "New theme updates available"
+msgstr ""
+
+#: client-status.php:299
+msgid "Clients"
+msgstr ""
+
+#: client-status.php:300 client-status-options.php:99
+msgid "Client"
+msgstr ""
+
+#: client-status.php:301 client-status.php:332
+msgid "Add New"
+msgstr ""
+
+#: client-status.php:302
+msgid "Add New Client"
+msgstr ""
+
+#: client-status.php:303 client-status.php:335
+msgid "Edit"
+msgstr ""
+
+#: client-status.php:304
+msgid "Edit Client"
+msgstr ""
+
+#: client-status.php:305
+msgid "New Client"
+msgstr ""
+
+#: client-status.php:306 client-status.php:338
+msgid "View"
+msgstr ""
+
+#: client-status.php:307
+msgid "View Client"
+msgstr ""
+
+#: client-status.php:308
+msgid "Search Clients"
+msgstr ""
+
+#: client-status.php:309
+msgid "No clients found"
+msgstr ""
+
+#: client-status.php:310
+msgid "No clients found in Trash"
+msgstr ""
+
+#: client-status.php:330
+msgid "Client Types"
+msgstr ""
+
+#: client-status.php:333
+msgid "Add New Client Type"
+msgstr ""
+
+#: client-status.php:334
+msgid "All Client Types"
+msgstr ""
+
+#: client-status.php:336
+msgid "Edit Client Type"
+msgstr ""
+
+#: client-status.php:337
+msgid "New Client Type"
+msgstr ""
+
+#: client-status.php:339
+msgid "View Client Type"
+msgstr ""
+
+#: client-status.php:340
+msgid "Search Client Types"
+msgstr ""
+
+#: client-status.php:341
+msgid "No client types found"
+msgstr ""
+
+#: client-status.php:342
+msgid "No client types found in Trash"
+msgstr ""
+
+#: client-status-options.php:26
+msgid "Client Status Options"
+msgstr ""
+
+#: client-status-options.php:82
+msgid "Settings Saved"
+msgstr ""
+
+#: client-status-options.php:94
+msgid "Client or Dashboard?"
+msgstr ""
+
+#: client-status-options.php:95
+msgid "Setting to dashboard will allow you to pull data from client sites."
+msgstr ""
+
+#: client-status-options.php:100
+msgid "Dashboard"
+msgstr ""
+
+#: client-status-options.php:106
+msgid "Security Key"
+msgstr ""
+
+#: client-status-options.php:107
+msgid "This key is needed for your client sites"
+msgstr ""
+
+#: client-status-options.php:115
+msgid "Client Update Frequency"
+msgstr ""
+
+#: client-status-options.php:116
+msgid "Uses WP-Cron"
+msgstr ""
+
+#: client-status-options.php:119
+msgid "Allow Client Updates"
+msgstr ""
+
+#: client-status-options.php:121
+msgid "Hourly"
+msgstr ""
+
+#: client-status-options.php:122
+msgid "Twice Daily"
+msgstr ""
+
+#: client-status-options.php:123
+msgid "Daily"
+msgstr ""
+
+#: client-status-options.php:129
+msgid "Email Notifications"
+msgstr ""
+
+#: client-status-options.php:130
+msgid ""
+"Which administrators should receive status emails? Selecting none will "
+"disable."
+msgstr ""
+
+#: client-status-options.php:155
+msgid "Expand Client Details"
+msgstr ""
+
+#: client-status-options.php:156
+msgid ""
+"On the dashboard, should all the client details be expanded or collapsed?"
+msgstr ""
+
+#: client-status-options.php:160 client-status-options.php:172
+msgid "Yes"
+msgstr ""
+
+#: client-status-options.php:161 client-status-options.php:173
+msgid "No"
+msgstr ""
+
+#: client-status-options.php:167
+msgid "Show Client Quick Info"
+msgstr ""
+
+#: client-status-options.php:168
+msgid ""
+"On the dashboard, for each client, should we show quick information about "
+"the client's site? This seems most useful if <strong>Expand Client Details</"
+"strong> is set to <strong>No</strong>."
+msgstr ""
+
+#: client-status-options.php:181
+msgid "Save Changes"
+msgstr ""
+
+#: data.php:135
+msgid "Invalid security key"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Client Status 1.3.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: dashboard.php:37
+msgid "Client Status"
+msgstr ""
+
+#: dashboard.php:44
+msgid "All"
+msgstr ""
+
+#: dashboard.php:120
+msgid "Updates"
+msgstr ""
+
+#: dashboard.php:121 dashboard.php:179
+msgid "Last Update: "
+msgstr ""
+
+#: dashboard.php:140
+msgid "Compatibility with WordPress %1$s: 100%% (according to its author)"
+msgstr ""
+
+#: dashboard.php:143
+msgid ""
+"Compatibility with WordPress %1$s: %2$d%% (%3$d \"works\" votes out of %4$d "
+"total)"
+msgstr ""
+
+#: dashboard.php:145
+msgid "Compatibility with WordPress %1$s: Unknown"
+msgstr ""
+
+#: dashboard.php:162
+msgid "Server Information"
+msgstr ""
+
+#: dashboard.php:162
+msgid "View client data file (for debugging)"
+msgstr ""
+
+#: dashboard.php:167
+msgid "Pending Comments: "
+msgstr ""
+
+#: dashboard.php:168
+msgid "Pending Posts: "
+msgstr ""
+
+#: dashboard.php:191
+msgid "You must enter a site URL to retrieve data"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://judenware.com/projects/wordpress/client-status/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Status dashboard to keep track of updates for your clients' WordPress sites. "
+"Allows sending email to administrators and also to clients when new updates "
+"are needed."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ericjuden"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.judenware.com"
+msgstr ""

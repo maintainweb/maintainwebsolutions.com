@@ -1,0 +1,159 @@
+img.helper, .wp-submenu-content input {
+    padding: 0 5px;
+    vertical-aign: bottom;
+}
+img.status {
+	padding-right: 5px;
+	vertical-align: bottom;	
+}
+a.status_error {
+	color: #ff0000;
+	font-weight: bold;
+}
+a.status_ok {
+	color: #008900;
+	font-weight: bold;
+}
+a.status_problem {
+	color: #FFD800;
+	font-weight: bold;	
+}
+#client_meta_info {
+	float: left;
+	width: 380px;
+}
+#client_meta_status {
+	float: left;
+}
+#client_status_list {
+	/*float: left;*/
+	list-style: none outside none;
+	/*margin: 15px 5px 15px -160px;*/
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#client_status_list * {
+	border-color: #DFDFDF;
+	-moz-user-select: none;
+}
+#client_status_list a {
+	
+}
+#client_status_list div.plugin, #client_status_list div.theme {
+	font-size: 11px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#client_status_list span.menu-top {
+	/*background: url('../images/menu-bits-vs.gif') repeat-x scroll left -379px #EAF3FA;*/
+	background-color: #D8D8D8;
+	border-style: solid solid none;
+	border-width: 1px 1px 0;
+	cursor: default;
+	line-height: 18px;
+	min-width: 10em;
+	padding: 5px;
+	display: block;
+	text-decoration: none;
+}
+#client_status_list span.menu-top a.post-edit-link {
+	float: right;	
+}
+#client_status_list span.menu-top, #client_status_list .wp-submenu-head {
+	font: 13px/18px Georgia, "Times New Roman", "Bitstream Charter", Times, serif;	
+}
+#client_status_list li {
+	margin: 0;
+	padding: 0;
+}
+#client_status_list li.menu-top {
+	min-height: 26px;	
+}
+#client_status_list div.wp-submenu {
+	border: solid 1px #DFDFDD;
+	background-color: #FFFFFF;
+	display: none;
+}
+.client_status_show_submenu {
+	display: block !important;
+}
+#client_status_list div.wp-submenu div.wp-submenu-content {
+	margin: 10px;
+}
+#client_status_list div.client_status_client_title {
+	display: inline;
+	float: left;
+	/*padding-right: 30px;*/
+}
+#client_status_list span.quick-info {
+    float: left;
+    font-size: 11px;
+    padding-left: 15px;
+}
+#client_status_list span.quick-info img.status {
+	display: none;
+}
+#client_status_list div.update-site {
+	-moz-border-radius: 10px 10px 10px 10px;
+	background-color: #D54E21;
+	color: #FFFFFF;
+	cursor: default;
+	display: inline;
+	float: left;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	line-height: 17px;
+	margin: 1px 7px 0px 7px;
+}
+#client_status_list div.update-site span {
+	cursor: default;
+	display: block;
+	padding: 0 6px;
+}
+.client_status_tabs {
+	list-style: none;
+}
+.client_status_tabs li {
+	background-color: #A0A0A0;
+    /*border-style: solid solid none;
+    border-width: 1px 1px 0;*/
+	display: inline-block;
+	margin: 0 2px 0 0;
+}
+.client_status_tabs li a {
+	display: block;
+	font-weight: bold;
+	padding: 5px 15px;
+}
+div.client_status {
+	float: left;
+	height: 120px;
+	padding: 10px;
+	margin: 0 10px 10px 0;
+	width: 250px;
+}
+div.client_status em {
+	font-size: smaller;	
+}
+div.client_status p {
+	margin: 0;
+	padding: 0 0 2px 0;	
+}
+div.client_status span input {
+	padding-left: 5px;
+	vertical-align: bottom;
+}
+div.status_error {
+	background-color: #FFD8D8;
+	border: solid 1px #ff0000;
+}
+div.status_ok {
+	background-color: #D8FFD8;
+	border: solid 1px #008900;
+}
+div.status_problem {
+	background-color: #FFF7D8;
+	border: solid 1px #FFD800;
+}

@@ -1,0 +1,103 @@
+------------------------------------------------------------
+Version 1.3.1
+    - Added function rgars() if it does not already exist
+    
+------------------------------------------------------------
+Version 1.3
+    - Fixed issue with delay notification and delay post settings not behaving correctly when paypal condition is not met
+    - Fixed notice messages
+    - Changed PayPal request to add charset=UTF-8 variable
+    - Added currency.js file to remove dependency on script from Gravity Forms
+    - Fixed issue on validation that failed when emails had extra blank spaces
+    - Added support for sending product fields to PayPal when feed is a donation
+    - Added support for using Form Total as an option for the recurring amount
+    - Changed CURL's setting to disable SSL peer validation
+    - Fixed UI issue on feeds page that displayed the "Add New" button when PayPal was not configured
+    - Fixed issue with notification settings not displaying the saved values correctly
+
+------------------------------------------------------------
+Version 1.2
+    - Cleaned up notices
+    - Fixed issue when using condition on a field with multiple single quote characters in the label
+    - Fixed issue when creating a feed using forms with HTML markup in field labels
+    - Fixed database index error when upgrading plugin
+
+------------------------------------------------------------
+Version 1.1.1
+    - Cleaned up Notice debug messages
+
+------------------------------------------------------------
+Version 1.1
+    - Fixed issue with delay notification hooks causing emails to be sent in the wrong time when the "send email after payment is received" option is enabled
+
+------------------------------------------------------------
+Version 1.0.beta6.2
+    - Added "gform_paypal_config_validation" hook to validate custom options created for the PayPal feed
+    - Updated PayPal config validation code to support muliple validation errors
+    - Renamed "gforms_paypal_save_config" to "gform_paypal_save_config"
+    - Removed extraneous code
+
+------------------------------------------------------------
+Version 1.0.beta6.1
+    - Added a hook to allow users to modify the query string sent to PayPal: gform_paypal_query
+    add_filter("gform_paypal_query_12", "update_paypal_query", 10, 3);
+    function update_paypal_query($query_string, $form, $entry){
+        return $query_string;
+    }
+    - Added "Cancel" button to the Edit page
+
+------------------------------------------------------------
+Version 1.0.beta6
+    - Fixed issue with thank you page displaying "Oops, could not locate your form" message when coming back from Paypal.
+    - Fixed issue with IPN not locating entry properly
+
+------------------------------------------------------------
+Version 1.0.beta5
+    - Fixed issue where recurring times were not reflecting changes made to PayPal feed
+    - Defaulting invoice id to blank. It can be specified if needed via the gform_paypal_invoice hook
+    - Fixed issue where recurring times were not getting sent to paypal
+
+------------------------------------------------------------
+Version 1.0.beta4
+    - Changed invoice number so that is has a unique number appended to it.
+    - Added a hook to allow users to change the invoice number
+    add_filter("gform_paypal_invoice", "change_invoice", 10, 3);
+    function change_invoice($invoice_id, $form, $entry){
+        return $entry["id"];
+    }
+
+-----------------------------------------------------------
+Version 1.0.beta3
+    - Added javascript form object as a parameter for the "paypalFormSelected" jQuery action
+
+-----------------------------------------------------------
+Version 1.0.beta2
+    - Added condition so that PayPal can be bypassed based on selected values in the form
+    - Bypassing PayPal if there are no products selected
+
+-----------------------------------------------------------
+Version 0.9
+    - displaying summary boxes even when graph is empty
+    - added disclaimer for free trials and no payments
+    - fixed issue with double fulfillment for subscriptions with paid trials
+
+-----------------------------------------------------------
+Version 0.8
+    - added transaction table and modified graph to pull data from it
+
+-----------------------------------------------------------
+Version 0.7
+    - added suppport for shipping field
+
+-----------------------------------------------------------
+Version 0.6
+    - added option to change post status after subscription is cancelled
+
+-----------------------------------------------------------
+Version 0.5
+    - added graphical stats page
+    - added link to entries page
+-----------------------------------------------------------
+Version 0.4
+    - added tooltips to admin page
+    - implemented confirmation when returning from paypal

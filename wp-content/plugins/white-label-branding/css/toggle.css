@@ -1,0 +1,97 @@
+
+#wlb-options-cont {
+	width: 100%;
+	max-width:1000px;
+}
+
+#wlb-options-cont .option-content {
+	display:none;
+}
+
+#wlb-options-cont .toggle-option h3.option-title.open {
+	-moz-border-radius:6px 6px 0 0;
+	-webkit-border-radius:6px 6px 0 0;
+	-html-border-radius:6px 6px 0 0;
+	border-radius:6px 6px 0 0;
+	background-position:10px -27px;
+}
+
+#wlb-options-cont .toggle-option h3.option-title {
+	-moz-border-radius:6px 6px 6px 6px;
+	-webkit-border-radius:6px;
+	-html-border-radius:6px;
+	border-radius:6px;
+	background:url("images/toggle.gif") no-repeat scroll 10px 13px #F1F1F1;
+	border:1px solid #E6E6E6;
+	color:#4E4C41;
+	cursor:pointer;
+	font-size:1.2em;
+	margin:15px 0 0;
+	padding:15px 15px 15px 40px;
+}
+
+#wlb-options-cont .toggle-option h3.option-title span{
+	color:#AAAAAA;
+	float:right;
+	font-size:0.9em;
+	font-weight:normal;
+}
+#wlb-options-cont .options-table {
+	width: 100%;
+}
+#wlb-options-cont .option-content {
+	-moz-border-radius:0 0 6px 6px;
+	-webkit-border-radius:8px;
+	-html-border-radius:8px;
+	border-radius:8px;
+	background:none repeat scroll 0 0 #FBFBFA;
+	border-color:-moz-use-text-color #E6E6E6 #E6E6E6;
+	border-color:#E6E6E6;
+	border-right:1px solid #E6E6E6;
+	border-style:none solid solid;
+	border-width:medium 1px 1px;
+	margin:0;
+	padding:15px;
+}
+
+#wlb-options-cont .bottom-controls {
+	padding: 20px 0 0 0;
+}
+
+#wlb-options-cont .options-table tr.tabs-subtitle th {
+	border-bottom: none !important;
+}
+
+#wlb-options-cont .options-table th p {
+	font-weight: normal !important;
+}
+
+#wlb-options-cont .tabs-create_sidebar th,#wlb-options-cont .tabs-list_sidebar .desc-cell {
+	vertical-align:top;
+}
+
+#wlb-options-cont .desc-cell {
+	padding:0 0 0 10px;
+}
+#wlb-options-cont .desc-cell .description{
+	-moz-border-radius:8px 8px 8px 8px;
+	-webkit-border-radius:8px 8px 8px 8px;
+	-html-border-radius:8px 8px 8px 8px;
+	border-radius:8px 8px 8px 8px;
+	background:none repeat scroll 0 0 #F1F1F1;
+	color:#777777;
+	padding:15px;
+	display:block;
+	float:right;
+	max-width:350px;
+	margin:10px 0 10px 5px;
+}
+
+.options-table th {
+	width:190px;
+}
+
+#custom-sidebar_sidebar_list {
+	min-width:200px;
+	
+}

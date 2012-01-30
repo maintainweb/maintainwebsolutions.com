@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: White Label Branding\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-06 21:01+0100\n"
+"PO-Revision-Date: 2010-12-06 22:27+0100\n"
+"Last-Translator: Dirk Rottig <office@xenprovide.de>\n"
+"Language-Team: xenprovide.de <office@xenprovide.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c;_n:1,2;_ngettext:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: German\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../.\n"
+
+#: .././white-label-branding.php:274
+msgid "White Label Branding"
+msgstr "White Label Branding"
+
+#: .././white-label-branding.php:352
+#: .././white-label-branding.php:354
+#: .././white-label-branding.php:422
+msgid "Branding"
+msgstr "Branding"
+
+#: .././white-label-branding.php:353
+msgid "Customize header and footer logo"
+msgstr "Header und Footer Logo im Adminbereich anpassen"
+
+#: .././white-label-branding.php:363
+msgid "Header logo URL"
+msgstr "Header Logo URL"
+
+#: .././white-label-branding.php:364
+msgid "URL to an image that will replace the header logo"
+msgstr "Um das Logo im Admin Header zu ändern, geben Sie hier die URL Ihres neuen Logos ein."
+
+#: .././white-label-branding.php:373
+msgid "Header bar height"
+msgstr "Höhe der Kopfleiste"
+
+#: .././white-label-branding.php:374
+msgid "Specify a height in px if the header logo is taller than 32px, this will adjust the header height."
+msgstr "Sofern Ihr Logo höher als 32 px ist, geben Sie bitte die neue Höhe des Admin Headers ein."
+
+#: .././white-label-branding.php:384
+msgid "Footer"
+msgstr "Footer"
+
+#: .././white-label-branding.php:389
+msgid "Developer logo URL"
+msgstr "URL zum Entwickler Logo"
+
+#: .././white-label-branding.php:390
+msgid "URL to an image that will be displayed in the footer."
+msgstr "URL zum Bild, welches im Footer gezeigt werden soll"
+
+#: .././white-label-branding.php:399
+msgid "Developer name"
+msgstr "Name des Entwicklers"
+
+#: .././white-label-branding.php:400
+msgid "Developer name, displayed on links to the developer website in the footer."
+msgstr "Dieser Name wird unten im Footer angezeigt. "
+
+#: .././white-label-branding.php:408
+msgid "Developer URL"
+msgstr "Entwickler URL"
+
+#: .././white-label-branding.php:409
+msgid "URL to the developer website."
+msgstr "URL zur Website des Entwicklers"
+
+#: .././white-label-branding.php:415
+#: .././white-label-branding.php:554
+#: .././white-label-branding.php:650
+#: .././white-label-branding.php:732
+#: .././white-label-branding.php:847
+msgid "Save changes"
+msgstr "Speichern"
+
+#: .././white-label-branding.php:420
+msgid "Login screen customization"
+msgstr "Login Screen"
+
+#: .././white-label-branding.php:421
+msgid "Customize login logo, background and html template"
+msgstr "Login Logo, Hintergrund und HTML Template anpassen"
+
+#: .././white-label-branding.php:426
+msgid "Default login screen customization"
+msgstr "Standard Login Screen Konfiguration"
+
+#: .././white-label-branding.php:431
+msgid "Login Logo URL"
+msgstr "URL zum Login Logo"
+
+#: .././white-label-branding.php:432
+msgid "URL to the login logo. The standard size logo is 300 px wide and 80 px tall, but you can use any size you want. "
+msgstr "Standardgröße ist 300 px breit und 80 px hoch. Variationen sind aber möglich."
+
+#: .././white-label-branding.php:440
+msgid "Login Background URL"
+msgstr "URL zum Hintergrund"
+
+#: .././white-label-branding.php:441
+msgid "URL to an image you want to use as login background"
+msgstr "URL zum Bild, welches Sie als Hintergrund für das Login nutzen möchten."
+
+#: .././white-label-branding.php:449
+msgid "background-attachments"
+msgstr "background-attachments"
+
+#: .././white-label-branding.php:459
+msgid "background-color"
+msgstr "background-color"
+
+#: .././white-label-branding.php:469
+msgid "background-color code"
+msgstr "background-color code"
+
+#: .././white-label-branding.php:477
+msgid "background-position"
+msgstr "background-position"
+
+#: .././white-label-branding.php:499
+msgid "background-x(xpos)"
+msgstr "background-x(xpos)"
+
+#: .././white-label-branding.php:507
+msgid "background-y(ypos)"
+msgstr "background-y(ypos)"
+
+#: .././white-label-branding.php:515
+msgid "background-repeat"
+msgstr "background-repeat"
+
+#: .././white-label-branding.php:524
+msgid "Alternative login template"
+msgstr "Alternatives Login Template"
+
+#: .././white-label-branding.php:528
+msgid "Use login template"
+msgstr "Eigenes Login Template"
+
+#: .././white-label-branding.php:530
+#, php-format
+msgid "Choose %s to activate the custom login html template and css"
+msgstr "Wählen Sie %s, um Ihr eigenes Login HTML Template und CSS zu aktivieren."
+
+#: .././white-label-branding.php:530
+#: .././includes/class.ALOptionsPanel.php:273
+msgid "Yes"
+msgstr "Ja"
+
+#: .././white-label-branding.php:538
+msgid "Login HTML template"
+msgstr "Login HTML Template"
+
+#: .././white-label-branding.php:539
+msgid "Optionally provide an html template to display instead of the default login html.  It is required that you include the following tags in the template: {loginform}: where you want the login form to occur, and {backlink}: where you want the back link to be displayed. {customlogo}:Shows the custom logo."
+msgstr "Hier haben Sie die Möglichkeit ein eigenes Template zu erstellen. Ersetzen Sie hier das Standard Login HTML. Benötigt werden <b>unbedingt</b> die Tags {loginform}: wo das Login-Feld gezeigt wird, {backlink}: wo Ihr Backlink gezeigt wird und {customlogo}: die Anzeige Ihres Logos. "
+
+#: .././white-label-branding.php:547
+msgid "Login CSS template"
+msgstr "Login CSS"
+
+#: .././white-label-branding.php:548
+msgid "This is an optional free space so you can write css or javascript to be output on the login header, either for your html template or to modify the styles of the default login screen."
+msgstr "Hier haben Sie die Möglichkeit, Änderungen am CSS vorzunehmen oder auch Javaskript in den Login Header Ihres Templates einzufügen."
+
+#: .././white-label-branding.php:559
+#: .././white-label-branding.php:561
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: .././white-label-branding.php:560
+msgid "Customize Dashboard Panels"
+msgstr "Konfigurieren Sie ein eigenes Dashboard Panel"
+
+#: .././white-label-branding.php:565
+msgid "Add your own Custom Dashboard Panel"
+msgstr "Fügen Sie ein eigenes Dashboard Panel hinzu"
+
+#: .././white-label-branding.php:569
+msgid "Custom Dashboard Panel"
+msgstr "Eigenes Dashboard Panel"
+
+#: .././white-label-branding.php:571
+msgid "This will appear on the dashboard."
+msgstr "Erstellen Sie Ihr eigenes Dashboard Panel."
+
+#: .././white-label-branding.php:578
+msgid "Public panel"
+msgstr "Öffentliches Panel"
+
+#: .././white-label-branding.php:583
+#: .././white-label-branding.php:607
+msgid "Title"
+msgstr "Titel"
+
+#: .././white-label-branding.php:585
+#: .././white-label-branding.php:609
+msgid "Add a title for your custom panel."
+msgstr "Fügen Sie Ihrem Panel einen Titel hinzu."
+
+#: .././white-label-branding.php:593
+#: .././white-label-branding.php:617
+msgid "Panel content"
+msgstr "Inhalt des Panels"
+
+#: .././white-label-branding.php:595
+msgid "This is shown to any logged user."
+msgstr "Dieses Panel wird jedem eingeloggten <b>User</b> angezeigt.  Erstellen Sie eine persönliche Nachricht. Wir empfehlen Ihre Kontaktdaten oder einen Link anzugeben, wo Ihr Kunde Sie erreichen kann. HTML Tags sind erlaubt."
+
+#: .././white-label-branding.php:602
+msgid "Private panel shown to editor"
+msgstr "Redakteur Panel"
+
+#: .././white-label-branding.php:619
+msgid "This is shown to the editor. Add your own unique message to your client. We recommend that you add contact details or a link to how your client can get help. You can use HTML tags in this field."
+msgstr "Dieses Panel wird <b>lediglich dem Redakteur</b> angezeigt.  Erstellen Sie eine persönliche Nachricht. Wir empfehlen Ihre Kontaktdaten oder einen Link anzugeben, wo Ihr Kunde Sie erreichen kann. HTML Tags sind erlaubt."
+
+#: .././white-label-branding.php:629
+msgid "Additional Dashboard Settings"
+msgstr "Weitere Dashboard Einstellungen"
+
+#: .././white-label-branding.php:633
+msgid "Remove Right Now panel"
+msgstr "Auf einen Blick"
+
+#: .././white-label-branding.php:635
+msgid "Hide <strong>Right Now</strong> panel"
+msgstr "Entfernen Sie das Panel <b>Auf einen Blick</b>."
+
+#: .././white-label-branding.php:642
+msgid "Remove dashboard panels"
+msgstr "Dashboard Panels"
+
+#: .././white-label-branding.php:644
+msgid "Hide default dashboard panels"
+msgstr "Entfernen Sie Standard Dashboard Panels."
+
+#: .././white-label-branding.php:661
+#: .././white-label-branding.php:663
+msgid "Menus"
+msgstr "Menüs"
+
+#: .././white-label-branding.php:662
+msgid "Customize Menus"
+msgstr "Menüs bearbeiten"
+
+#: .././white-label-branding.php:667
+msgid "Main Menu Configuration"
+msgstr "Hauptmenü Konfiguration"
+
+#: .././white-label-branding.php:671
+msgid "Changes made here will only effect people with the user role of <b>Editor</b> or lower. You are currently logged is as the admin, so you will not see any changes in the menus until you login as <b>Editor</b> or lower."
+msgstr "Änderungen betreffen lediglich Benutzer mit der Rolle eines <b>Redakteur</b> und niedriger. Da Sie aktuell als Administrator angemeldet sind, sehen Sie keine Veränderungen. Eine Anmeldung als <b>Redakteur</b> macht die Änderungen sichtbar."
+
+#: .././white-label-branding.php:685
+#: .././white-label-branding.php:699
+#: .././white-label-branding.php:772
+msgid "Hide"
+msgstr "Verbergen Sie das Menü"
+
+#: .././white-label-branding.php:699
+msgid "Your Profile"
+msgstr "Ihr Profil"
+
+#: .././white-label-branding.php:709
+msgid "Appearance Menu Configuration"
+msgstr "Konfiguration des Design Menüs"
+
+#: .././white-label-branding.php:715
+msgid "The following change will display the Widgets or Menus option in Appearance to users with the role of <b>Editor</b>."
+msgstr "Die folgende Einstellung ermöglicht es jedem <b>Redakteur</b> Anpassungen am Design vorzunehmen."
+
+#: .././white-label-branding.php:720
+msgid "Appearance Menu Options"
+msgstr "Design freischalten"
+
+#: .././white-label-branding.php:722
+msgid "Show the appearance menu for the user level <strong>Editor</strong>."
+msgstr "<b>Redakteuren</b> Änderungen am Design ermöglichen."
+
+#: .././white-label-branding.php:737
+msgid "Sub menus"
+msgstr "Untermenüs"
+
+#: .././white-label-branding.php:738
+#: .././white-label-branding.php:739
+msgid "Customize Sub menus"
+msgstr "Verändern Sie Untermenüs"
+
+#: .././white-label-branding.php:743
+msgid "Sub Menu Configuration"
+msgstr "Konfiguration der Untermenüs"
+
+#: .././white-label-branding.php:747
+msgid "Changes made here will only effect people with the user role of <b>Editor</b> or lower. You are currently logged is as the admin, so you will not see any changes in the sub menus until you login as <b>Editor</b> or lower."
+msgstr "Änderungen betreffen lediglich Benutzer mit der Rolle eines <b>Redakteur</b> und niedriger. Da Sie aktuell als Administrator angemeldet sind, sehen Sie keine Veränderungen. Eine Anmeldung als <b>Redakteur</b> macht die Änderungen sichtbar."
+
+#: .././white-label-branding.php:788
+#: .././white-label-branding.php:790
+msgid "Additional settings"
+msgstr "Erweiterte Einstellungen"
+
+#: .././white-label-branding.php:789
+msgid "&nbsp;"
+msgstr " "
+
+#: .././white-label-branding.php:794
+msgid "Wordpress messages"
+msgstr "Nachrichten von Wordpress"
+
+#: .././white-label-branding.php:798
+msgid "Hide wordpress update messages."
+msgstr "Verbergen Sie Aktualisierungshinweise von Wordpress"
+
+#: .././white-label-branding.php:803
+msgid "Hide update nag"
+msgstr "Update Hinweise"
+
+#: .././white-label-branding.php:805
+msgid "Hide wordpress update message at the top."
+msgstr "Verbergen Sie Wordpress Aktualisierungshinweise, die normalerweise oben angezeigt werden."
+
+#: .././white-label-branding.php:812
+msgid "Hide update download link"
+msgstr "Download-Links"
+
+#: .././white-label-branding.php:814
+msgid "Hide wordpress download link message at the bottom."
+msgstr "Verbergen Sie die Download Link, der im Footer des Admin Bereiches angezeigt wird."
+
+#: .././white-label-branding.php:821
+msgid "Hide contextual help"
+msgstr "Hilfe ausblenden"
+
+#: .././white-label-branding.php:823
+msgid "Hide wordpress contextual help."
+msgstr "Kontext bezogene Hilfe von Wordpress ausblenden."
+
+#: .././white-label-branding.php:830
+msgid "Hide screen options"
+msgstr "Optionen einblenden"
+
+#: .././white-label-branding.php:832
+msgid "Hide screen options."
+msgstr "Verbergen Sie <b>Optionen einblenden</b> rechts oben."
+
+#: .././white-label-branding.php:839
+msgid "Hide favorite actions"
+msgstr "Dropdown Favoriten"
+
+#: .././white-label-branding.php:841
+msgid "Hide wordpress favorite actions (Dropdown located on the top right corner of wp-admin)."
+msgstr "Verbergen Sie die Favoriten (rechts oben)."
+
+#: .././includes/class.ALOptionsPanel.php:110
+msgid "Options updated."
+msgstr "Optionen aktualisiert"
+
+#: .././includes/class.ALOptionsPanel.php:161
+msgid "Open all"
+msgstr "Alle Slides öffnen"
+
+#: .././includes/class.ALOptionsPanel.php:162
+msgid "Save all"
+msgstr "Speichern"
+
+#: .././includes/class.ALOptionsPanel.php:274
+msgid "No"
+msgstr "Nein"
+
+#~ msgid "Login"
+#~ msgstr "Login"
+
+#~ msgid "Change logos"
+#~ msgstr "Cambiar logos"

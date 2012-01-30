@@ -1,0 +1,51 @@
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 56.76 MB :: Real Memory 57.00 MB :: Peak Memory 56.89 MB :: Real Peak Memory 57.00 MB
+maintainwebsolutions.com/?s2member_paypal_return=1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  'subscr_gateway' => 'paypal',
+  's2member_log' => 
+  array (
+    0 => 'No Return-Data. Customer must wait for Email Confirmation.',
+    1 => 'Redirecting Customer to the Home Page. Customer must wait for Email Confirmation.',
+    2 => 'Note. This can sometimes happen when/if you are offering a free Trial Period. There are times when a Payment Gateway will NOT supply s2Member with any data immediately after checkout. When/if this happens, s2Member must process the transaction via IPN only ( i.e. behind-the-scene ), and the Customer must wait for Email Confirmation in these cases.',
+    3 => 'array (
+  \'s2member_paypal_return\' => \'1\',
+)',
+  ),
+)
+
+PHP v5.3.5 :: WordPress® v3.3 :: s2Member® v111220 :: s2Member® Pro v111220
+Memory 56.30 MB :: Real Memory 56.50 MB :: Peak Memory 56.43 MB :: Real Peak Memory 56.50 MB
+maintainwebsolutions.com/?s2member_paypal_return=1
+User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+array (
+  'subscr_gateway' => 'paypal',
+  's2member_log' => 
+  array (
+    0 => 'No Return-Data. Customer must wait for Email Confirmation.',
+    1 => 'Redirecting Customer to the Home Page. Customer must wait for Email Confirmation.',
+    2 => 'Note. This can sometimes happen when/if you are offering a free Trial Period. There are times when a Payment Gateway will NOT supply s2Member with any data immediately after checkout. When/if this happens, s2Member must process the transaction via IPN only ( i.e. behind-the-scene ), and the Customer must wait for Email Confirmation in these cases.',
+    3 => 'array (
+  \'s2member_paypal_return\' => \'1\',
+)',
+  ),
+)
+
+PHP v5.3.5 :: WordPress® v3.3 :: s2Member® v111220 :: s2Member® Pro v111220
+Memory 56.30 MB :: Real Memory 56.50 MB :: Peak Memory 56.43 MB :: Real Peak Memory 56.50 MB
+maintainwebsolutions.com/?s2member_paypal_return=1
+User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+array (
+  'subscr_gateway' => 'paypal',
+  's2member_log' => 
+  array (
+    0 => 'No Return-Data. Customer must wait for Email Confirmation.',
+    1 => 'Redirecting Customer to the Home Page. Customer must wait for Email Confirmation.',
+    2 => 'Note. This can sometimes happen when/if you are offering a free Trial Period. There are times when a Payment Gateway will NOT supply s2Member with any data immediately after checkout. When/if this happens, s2Member must process the transaction via IPN only ( i.e. behind-the-scene ), and the Customer must wait for Email Confirmation in these cases.',
+    3 => 'array (
+  \'s2member_paypal_return\' => \'1\',
+)',
+  ),
+)
+

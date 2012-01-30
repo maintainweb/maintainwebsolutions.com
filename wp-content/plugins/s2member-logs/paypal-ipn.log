@@ -1,0 +1,110 @@
+WordPress® v3.2.1 :: s2Member® v110927 :: s2Member® Pro v110927
+Memory 59.24 MB :: Real Memory 59.50 MB :: Peak Memory 59.29 MB :: Real Peak Memory 59.50 MB
+maintainwebsolutions.com/?s2member_paypal_notify=1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+array (
+  's2member_log' => 
+  array (
+    0 => 'Unable to verify $_POST vars. This is most likely related to an invalid configuration of s2Member, or a problem with server compatibility.',
+    1 => 'If you\'re absolutely SURE that your configuration is valid, you may want to run some tests on your server, just to be sure $_POST variables are populated, and that your server is able to connect/communicate with your Payment Gateway over an HTTPS connection.',
+    2 => 's2Member uses the `WP_Http` class for remote connections; which will try to use `cURL` first, and then fall back on the `FOPEN` method when `cURL` is not available. On a Windows® server, you may have to disable your `cURL` extension; and instead, set `allow_url_fopen = yes` in your php.ini file. The `cURL` extension (usually) does NOT support SSL connections on a Windows® server.',
+    3 => 'Please see this thread: `http://www.primothemes.com/forums/viewtopic.php?f=36&t=2636` for details regarding the ideal server configuration for s2Member.',
+    4 => 'array (
+  \'s2member_paypal_notify\' => \'1\',
+)',
+  ),
+)
+
+PHP v5.3.5 :: WordPress® v3.2.1 :: s2Member® v111105 :: s2Member® Pro v111105
+Memory 56.24 MB :: Real Memory 56.50 MB :: Peak Memory 56.30 MB :: Real Peak Memory 56.50 MB
+maintainwebsolutions.com/?s2member_paypal_notify=1
+User-Agent: 
+array (
+  'transaction_subject' => '',
+  'txn_type' => 'send_money',
+  'payment_date' => '10:56:34 Nov 29, 2011 PST',
+  'last_name' => 'Lingard',
+  'residence_country' => 'US',
+  'payment_gross' => '75.00',
+  'mc_currency' => 'USD',
+  'business' => 'leoken@gmail.com',
+  'payment_type' => 'instant',
+  'protection_eligibility' => 'Ineligible',
+  'verify_sign' => 'ATmF2-f47X1HEs-pqAARMKxr2PR6AADAzNCgC2JGLZaa.WeN8gnlzQA8',
+  'payer_status' => 'verified',
+  'payer_email' => 'finance@taskrabbit.com',
+  'txn_id' => '5BN662443U174760V',
+  'receiver_email' => 'leoken@gmail.com',
+  'first_name' => 'Ben',
+  'payer_id' => 'E8VFB5NGE3C2Q',
+  'receiver_id' => 'XESCP2H93ZJQE',
+  'payer_business_name' => 'TaskRabbit, Inc',
+  'payment_status' => 'Completed',
+  'mc_gross' => '75.00',
+  'charset' => 'windows-1252',
+  'notify_version' => '3.4',
+  'ipn_track_id' => 'nkRLD7Ivzif8U0NblwoAcA',
+  's2member_log' => 
+  array (
+    0 => 'IPN received on: Tue Nov 29, 2011 6:56:43 pm UTC',
+    1 => 's2Member POST vars verified through a POST back to PayPal®.',
+    2 => 'Unable to verify `$_SERVER["HTTP_HOST"]`. Please check the `custom` value in your Button Code. It MUST start with your domain name.',
+  ),
+  'subscr_gateway' => 'paypal',
+)
+
+PHP v5.3.5 :: WordPress® v3.3 :: s2Member® v111220 :: s2Member® Pro v111220
+Memory 58.88 MB :: Real Memory 59.00 MB :: Peak Memory 58.94 MB :: Real Peak Memory 59.00 MB
+maintainwebsolutions.com/?s2member_paypal_notify=1
+User-Agent: 
+array (
+  'transaction_subject' => '',
+  'txn_type' => 'send_money',
+  'payment_date' => '00:07:29 Dec 30, 2011 PST',
+  'last_name' => 'Lingard',
+  'residence_country' => 'US',
+  'payment_gross' => '295.00',
+  'mc_currency' => 'USD',
+  'business' => 'leoken@gmail.com',
+  'payment_type' => 'instant',
+  'protection_eligibility' => 'Ineligible',
+  'verify_sign' => 'AiKZhEEPLJjSIccz.2M.tbyW5YFwAbTtyTE0BOK9I4NvB28Z2iP5WQdy',
+  'payer_status' => 'verified',
+  'payer_email' => 'finance@taskrabbit.com',
+  'txn_id' => '33509206SW445420N',
+  'receiver_email' => 'leoken@gmail.com',
+  'first_name' => 'Ben',
+  'payer_id' => 'E8VFB5NGE3C2Q',
+  'receiver_id' => 'XESCP2H93ZJQE',
+  'payer_business_name' => 'TaskRabbit, Inc',
+  'payment_status' => 'Completed',
+  'mc_gross' => '295.00',
+  'charset' => 'windows-1252',
+  'notify_version' => '3.4',
+  'ipn_track_id' => '5.nxpyimbnRsIBN74v5oTw',
+  's2member_log' => 
+  array (
+    0 => 'IPN received on: Fri Dec 30, 2011 8:07:38 am UTC',
+    1 => 's2Member POST vars verified through a POST back to PayPal®.',
+    2 => 'Unable to verify `$_SERVER["HTTP_HOST"]`. Please check the `custom` value in your Button Code. It MUST start with your domain name.',
+  ),
+  'subscr_gateway' => 'paypal',
+)
+
+PHP v5.3.5 :: WordPress® v3.3 :: s2Member® v111220 :: s2Member® Pro v111220
+Memory 58.85 MB :: Real Memory 59.00 MB :: Peak Memory 58.91 MB :: Real Peak Memory 59.00 MB
+maintainwebsolutions.com/?s2member_paypal_notify=1
+User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+array (
+  's2member_log' => 
+  array (
+    0 => 'Unable to verify $_POST vars. This is most likely related to an invalid configuration of s2Member, or a problem with server compatibility.',
+    1 => 'If you\'re absolutely SURE that your configuration is valid, you may want to run some tests on your server, just to be sure $_POST variables are populated, and that your server is able to connect/communicate with your Payment Gateway over an HTTPS connection.',
+    2 => 's2Member uses the `WP_Http` class for remote connections; which will try to use `cURL` first, and then fall back on the `FOPEN` method when `cURL` is not available. On a Windows® server, you may have to disable your `cURL` extension; and instead, set `allow_url_fopen = yes` in your php.ini file. The `cURL` extension (usually) does NOT support SSL connections on a Windows® server.',
+    3 => 'Please see this thread: `http://www.primothemes.com/forums/viewtopic.php?f=36&t=2636` for details regarding the ideal server configuration for s2Member.',
+    4 => 'array (
+  \'s2member_paypal_notify\' => \'1\',
+)',
+  ),
+)
+
